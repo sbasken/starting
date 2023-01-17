@@ -5,23 +5,144 @@ body {
     font-family: sans-serif;
 }
 
-.navigation {
-    display: inline;
+.navigation li{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 30px;
+    background-color: black;
+    border: 1px solid gray;
+    color: gray;
 }
+
+.navigation li a:link {
+    color: gray;
+    text-decoration: none;
+    
+}
+
+.navigation li a:hover {
+    color: rgb(154, 71, 186);
+}
+
+.navigation li a:visited {
+    color:rgb(134, 218, 215)
+}
+
+
 
 #banner {
     background-image: url("../images/Blue-Banner-Background-HD.png");
     height: 600px;
-    width: 1200px;
+    max-width: 80%;
     padding: 30px 20px;
     margin: 60px auto;
     border-radius: 15px;
-    z-index: 0;
 }
 
 div.content h1 {
     color: white;
     font-size: 80px;
-    margin: 75px 800px;
-    
+    padding: 60px;
+    text-align: right;
+}
+
+.color-container {
+    border: 1px solid white;
+    max-width: fit-content;
+    overflow: scroll;
+    padding: 30px 20px;
+    margin: 60px auto;
+}
+
+.color-panel {
+    display: inline-block;
+    text-align:center;
+    margin: 30px 20px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.blue {
+    background-color: #2d5dcc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.pink {
+    background-color: #d957d9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: #4fe0b0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.beige {
+    background-color: #efd9ca;
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+
+.fonts-container {
+    border: 1px solid white;
+    max-width: fit-content;
+    overflow: scroll;
+    padding: 30px 20px;
+    margin: 60px auto;
+}
+
+.fonts-panel {
+    display: inline-block;
+    text-align:center;
+    margin: 30px 20px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.pro {
+    font-family: "Source Code Pro";
+}
+
+.sans {
+    font-family: "Nunito Sans";
+}
+
+.popping {
+    font-family: poppins, sans-serif;
+}
+
+.styles-container {
+    border: 1px solid white;
+    max-width: fit-content;
+    overflow: scroll;
+    padding: 30px 20px;
+    margin: 60px auto;
+}
+
+.styles-panel {
+    display: inline-block;
+    text-align:center;
+    margin: 30px 20px;
+}
+
+#subheading {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: poppins, sans-serif;
+    text-align: left;
 }
